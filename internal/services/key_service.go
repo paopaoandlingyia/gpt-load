@@ -129,7 +129,7 @@ func (s *KeyService) processAndCreateKeys(
 			KeyValue:        encryptedKey,
 			KeyHash:         keyHash,
 			Status:          models.KeyStatusActive,
-			Notes:           ""
+			Notes:           "",
 		})
 	}
 
